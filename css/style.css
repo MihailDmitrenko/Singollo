@@ -1,0 +1,167 @@
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background-color: #f2f2f2;
+	height: auto;
+}
+.clearfix {
+	clear: both;
+}
+a {
+	text-decoration: none;
+}
+#wrap {
+	min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -60px;
+}
+#footer {
+}
+
+.navbar-inverse .navbar-brand {
+	color: #fff;
+	font-size: 24px;
+}
+.navbar-fixed-top {
+	background-color: #2d303a;
+	color: #fff;
+	border-bottom: 6px solid #323746;
+	padding: 20px 20px;
+	position: absolute;
+}
+
+li > a {
+	background-color: transparent;
+	text-decoration-style: none;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover { background-color: transparent; }
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a {color: #fff; background-color: transparent;}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {color: #f06c64; transition: 0.5; background-color: transparent;}
+
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel-inner>.item>a>img, .carousel-inner>.item>img {
+	margin: 0 auto; 
+}
+
+.carousel {
+	position: relative;
+	background-color: #f06c64;
+	margin-top: 95px;
+}
+
+/* Services block */
+
+.services {
+	max-width: 100%;
+	height: auto;
+	min-height: 500px;
+	background-color: #f2f2f2;
+	color: #666d89;
+	line-height: 26px;
+	padding-bottom: 30px;
+}
+.services h2 {
+	font-size: 30px;
+	padding-top: 32px;
+}
+.services p {
+	padding-top: 5px;
+	font-size: 16px;
+}
+
+.icons-blocks {
+	margin-top: 30px;
+	float: left;
+	max-width: 100%;
+}
+.item-one {
+	margin-bottom: 25px;
+}
+.icons-blocks h3 {
+	margin-top: 0px;
+	font-size: 18px;
+}
+.icons-blocks p {
+	margin-top: -5px;
+	font-size: 14px;
+	line-height: 1.5;
+}
+.icons-blocks img {
+	padding-bottom: 10px;
+}
+
+				/* Portfolio */
+.portfolio {
+	float: left;  
+	width: 100%;
+	height: auto;
+	background-color: #2d303a;
+	padding: 40px 0px 40px 0px;
+	color: #666d89;
+	border-bottom: 6px solid #323746;
+}
+
+					/* Tabs */ 
+.tabs li {
+	text-decoration: none;
+	list-style-type: none;
+	float: left;
+	padding: 4px 15px 4px 15px;
+	border: 1px solid #666d89;
+	border-radius: 5px;
+	margin-left: 10px;
+}
+.tabs li:nth-child(1) {
+	margin-left: 0px;
+	padding-left: 15px;
+}
+.tabs a {
+	color: #666d89;
+	text-decoration: none;
+	list-style-type: none;
+	float: left;
+	width: 100%;
+	height: 100%;
+	display: block;
+	padding: 0px 0px 0px 0px;
+}
+.tabs li:hover {
+	color: white;
+	border: 1px solid white;
+
+}
+				/* Images */
+.portfolio_items {
+	margin: 0 auto;
+	height: auto;	
+	padding-top: 10px;
+	max-width: 960px;
+}
+.portfolio_item {
+	display: block;   				/* if DOM is ready ALL AMAGES is hide and JS-script add class="Active" all images */
+    max-width: 100%;
+    height: auto;
+    padding-top: 20px;
+}
+
+/* Add this class if you want  hide elements */
+.imege-sort {
+	display: none;
+}
+
+/* show elements */
+.Active {
+	display: block;
+}
